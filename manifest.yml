@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Node-RED Starter KMN
+  host: Node-RED-Starter-KMN
+  disk_quota: 1024M
+  services:
+  - Node-RED Starter KMN-cloudantNoSQLDB
